@@ -2,12 +2,11 @@
 
 public class PrintArray {
   public static void main(String[] args) {
-    int[] arr = new int[5]; //declared array of size 5
-    arr = new int[]{8, 72, 15, 4, 42}; //initialized array with 5 values
-
-    //printing elements of an array
+    int[] arr =  {8, 72, 15, 4, 42}; //initialized array with 5 values
+        
+      //printing elements of an array
     for(int val : arr){
-        System.out.println(val);
+      System.out.println(val);
     }
   }
 }
