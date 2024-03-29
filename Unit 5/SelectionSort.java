@@ -1,5 +1,3 @@
-package Unit5;
-
 public class SelectionSort {
     public static void main(String[] args) {
         int[] arr = {21, 12, 9, 16, 3};
